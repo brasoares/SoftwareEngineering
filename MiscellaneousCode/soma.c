@@ -8,6 +8,7 @@ int main() {
   while (soma < 100) {
     printf("Please, enter the integer: ");
     scanf("%d", &n);
+    soma += n;
   }
 
   printf("%d", &soma)
