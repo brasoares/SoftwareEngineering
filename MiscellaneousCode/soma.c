@@ -11,7 +11,7 @@ int main() {
     soma += n;
   }
 
-  printf("%d", &soma)
+  printf("%d", soma)
   
   return 0;
 }
